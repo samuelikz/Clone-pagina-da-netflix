@@ -1,0 +1,40 @@
+@media screen and (max-width:400px){
+    .carrosel-filmes {
+        margin-top: 22px;
+    }
+    .botao{
+        font-size: 10px;
+    }
+    .filme-principal .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .carrosel-filmes {
+        margin-top: 22px;
+    }
+    .botao{
+        font-size: 10px;
+    }
+    .filme-principal .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descrincao{
+        width: 50%;
+    }
+}

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!--owl css -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
     <title>Netflix Clone</title>
 </head>
 <body>
@@ -23,6 +29,15 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">HOUSE OF CARDS</h3>
+                <div class="star">
+                  <p>
+                      <span class="positivo">97% Mach</span>
+                      <span class="star-desc">2020</span>
+                      <span class="star-box">+15</span>
+                      <span class="star-desc">6 Temporadas</span>
+                      <span class="star-box">HD</span>
+                  </p>
+                </div>
                 <p class="descrincao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assita agora a nova temporada de House of Cards que está imperdivel</p>
                 <div class="botoes">
                     <button role="button" class="botao">
@@ -37,6 +52,46 @@
             </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/39e8110c2c.js"></script>
+    <script src="js/owlcarousel/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/owlcarousel/setup.js"></script>
+    
 </body>
 </html>
